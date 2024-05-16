@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#mytitle{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(0, 238, 255);
+}
+
+#image {
+    width: 300px;
+    height: auto;
+}
+
+#explodeBtn {
+    padding: 10px 20px;
+    font-size: 24px;
+    margin-top: 20px;
+    border-radius: 20px; /* Adding rounded corners */
+    border: none; /* Remove default button border */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Cursor style */
+}
+
+#congratsText {
+    display: none;
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(0, 238, 255);
+}
+
+@keyframes explodeAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(10);
+        opacity: 0;
+    }
+}
