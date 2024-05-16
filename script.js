@@ -16,5 +16,5 @@ function explode() {
 function showCongrats() {
     var congratsText = document.getElementById("congratsText");
     congratsText.style.display = "block";
-    congratsText.innerHTML = "Subbed to!<br>OnlyWeigans!";
+    congratsText.innerHTML = "Subbed to!<br>OnlyWiegands!";
 }
